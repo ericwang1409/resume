@@ -1,0 +1,263 @@
+%-------------------------
+% Resume in Latex
+% Author : Eric Wang
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Eric Wang} \\ \vspace{1pt}
+    \small 732-492-2378 $|$ \href{mailto:x@x.com}{\underline{eric$\_$wang@college.harvard.edu}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/ericliwang/}} $|$
+    \href{https://github.com/...}{\underline{https://github.com/ericwang1409}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {Harvard University}{Cambridge, MA}
+      {AB in Computer Science and Math. GPA: 4.0/4.0}{Expected 2026}
+      % {Harvard University}{Cambridge, MA}
+      % {AB in Computer Science and Math. Concurrent Masters in Computer Science. GPA: 4.0/4.0}{Expected 2026}
+      % {AB in Computer Science and Math. Concurrent Masters in Computer Science. GPA: 4.0/4.0}{Expected 2025}
+    \resumeSubItem{\textbf{Coursework:} Data Structures $\&$ Algorithms, Machine Learning, Systems Programming, Probability}
+    % \resumeSubItem{\textbf{Activities: } AI Safety Team, Harvard Tech for Social Good, Harvard Computer Society, Harvard Climbing}
+   \resumeSubItem{\textbf{Activities: } Harvard AI Safety, Harvard Tech for Social Good, Harvard Computer Society, Harvard Climbing}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Machine Learning Engineer Intern}{June 2023 - Present}
+      {Analog Devices}{San Jose, CA}
+      \resumeItemListStart
+        \resumeItem{Digital Healthcare Algorithms Team}
+        \resumeItem{Built an end-to-end activity classification model by pre-training and fine-tuning with self-supervised learning techniques, utilizing open-source accelerometer sensor data to improve predictive accuracy and efficiency by 28\%}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Computer Science Teaching Fellow}{January 2024 -- Present}
+      {Harvard University}{Cambridge, MA}
+      \resumeItemListStart
+        \resumeItem{Teaching Fellow for CS 121 Introduction to Theoretical Computer Science \textbf{Fall 2024}}
+        \resumeItem{Teaching Fellow for CS 51 Abstraction and Design in Computation \textbf{Spring 2024}}
+        % \resumeItem{Taught recitation, ran office hours, graded students' problem sets to a class size of over 200 students}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+    % \resumeSubheading
+    %   {Software Engineer (Contract)}{September 2023 - December 2023}
+    %   {Ersilia Open Source Initiative}{Cambridge, MA}
+    %   \resumeItemListStart
+    %     \resumeItem{Designed a program with Python to track 8 different metrics of performance data for AI models to determine how intensely models are deployed, when errors occur, and computational efficiency}
+    %     \resumeItem{Teamed with a group of 6 to improve the Ersilia Command Line Interface over the course of the semester}
+    % \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer Intern}{May 2023 - August 2023}
+      {Brainspec}{Boston, MA}
+      \resumeItemListStart
+        \resumeItem{Developed a Python algorithm using OpenCV to determine overlap between a spherical phantom and a voxel in MRS, reducing prior calculation errors by 80$\%$ to achieve a precision of less than 5$\%$ error}
+        \resumeItem{Interpreted data of 5000+ patients and analyzed trends in neuroimaging with MATLAB}
+        \resumeItem{Utilized Matplotlib for data analytics and trend plotting, communicating results through visualizations}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Software Engineer Intern}{September 2021 - January 2022}
+      {Commvault}{Tinton Falls, NJ}
+      \resumeItemListStart
+        \resumeItem{Streamlined pricing visualization through Microsoft Azure and SQL to display 7 different metrics}
+        \resumeItem{Automated the process of adding, replicating, and backing up new virtual machines to an environment by leveraging Python, Shell Scripting, and the Commvault interface}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Mechanistic Interpretability of Maximum of Lists} $|$ \emph{Python, PyTorch}}{January 2024 - May 2024}
+          \resumeItemListStart
+            \resumeItem{Trained a single-layer, attention only transformer written from scratch to take the maximum number across variable length lists, achieving an average 97.4$\%$ test accuracy across all variations}
+            \resumeItem{Performed mechanistic interpretibility on the attention patterns to analyze and write a paper on the results}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{TaiYo! Solver} $|$ \emph{Python, Pymunk, Deep Q-Learning, PyTorch}}{November 2023}
+          \resumeItemListStart
+            \resumeItem{Engineered a custom game from the ground up, utilizing PyGame for engaging gameplay interfaces and PyMunk for accurate physics simulations}
+            \resumeItem{Implemented and trained a Deep-Q Learning algorithm to autonomously play the game using optimal actions over the state space, outperforming over 80$\%$ of human players based on comprehensive gameplay metrics}
+            \resumeItem{Won most ambitious/best idea hack at HackWellesley with a team of 3}
+          \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{Wakey} $|$ \emph{React Native, Node.js, Web Sockets, Supabase}}{October 2023}
+      %     \resumeItemListStart
+      %       \resumeItem{Leveraged React Native for a full-stack mobile app designed to synchronize alarms among friends}
+      %       \resumeItem{Integrated a Node.js backend server, utilized Web Sockets, and used Supabase for metrics storage}
+      %       \resumeItem{Submitted to and received award for Most Funny Hack at HackHarvard working with a team of 4}
+      %     \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Wakey} $|$ \emph{Swift, Node.js, Web Sockets, Firebase, XCode}}{October 2023}
+          \resumeItemListStart
+            \resumeItem{Leveraged Swift and SwiftUI for a full-stack mobile app designed to synchronize alarms among friends}
+            \resumeItem{Integrated a Node.js backend server, utilized Web Sockets, and used Firebase for metrics storage}
+            \resumeItem{Submitted to and received award for Most Funny Hack at HackHarvard working with a team of 4}
+        \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %   {\textbf{Harvard AI Safety MLAB} $|$ \emph{Python, PyTorch, Numpy, Einops}}{September 2023 - December 2023}
+        %   \resumeItemListStart
+        %     \resumeItem{Participated in a Machine Learning Alignment Bootcamp 8 hours a week to develop fundamental ML skills such as backpropagation and building transformers from scratch relevant to alignment research}
+        %     \resumeItem{Worked with Pytorch and NumPy to build, train, and optimize different neural networks}
+        %   \resumeItemListEnd
+        % \resumeProjectHeading
+        %   {\textbf{Control XR} $|$ \emph{C$\#$, Unity}}{January 2023 - May 2023}
+        %   \resumeItemListStart
+        %     \resumeItem{Engineered dual-function (input and output) haptic gloves for use in AR/XR systems}
+        %     \resumeItem{Spearheaded designing of interfaces and interactions in Unity and C$\#$ compatible with haptic gloves, allowing for three different interactions: pinching, typing, and material feedback}
+        %   \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Fallsafe} $|$ \emph{C++, Arduino}}{January 2022 - June 2022}
+          \resumeItemListStart
+            \resumeItem{Designed, assembled, and tested a waterproof bath mat to detect falls with 90$\%$ accuracy using force sensors, arduino, and C++ leading the team to secure the district's financial support for a patent out of 36 applicants}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C/C++, SQL (Postgres), JavaScript, OCaml, HTML/CSS, R} \\
+     \textbf{Frameworks}{: PyTorch, React, Node.js, Flask, Next.js} \\
+     \textbf{Developer Tools}{: Git, Docker, Amazon AWS, VS Code, Visual Studio, Unity, Unreal Engine, Blender} \\
+     % \textbf{Libraries}{: pandas, NumPy, Matplotlib, PyTorch, PyMunk}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
