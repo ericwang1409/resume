@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1718822294 "/Users/eric3/LocalDocuments/Resume/Resume - Eric Wang.tex" "Resume - Eric Wang.pdf" "Resume - Eric Wang" 1718822294 0
-  "/Users/eric3/LocalDocuments/Resume/Resume - Eric Wang.tex" 1718822261 11885 d00a754e1f7f3ea479284d73993d5215 ""
+["pdflatex"] 1718823148 "/Users/eric3/LocalDocuments/Resume/Resume - Eric Wang.tex" "Resume - Eric Wang.pdf" "Resume - Eric Wang" 1718823149 0
+  "/Users/eric3/LocalDocuments/Resume/Resume - Eric Wang.tex" 1718823148 11960 706727cebd3a670b611a803f2d1f2c10 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -86,9 +86,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702650228 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702650176 7883461 d4b638f188d4653f0ce07f91f3d67a83 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Resume - Eric Wang.aux" 1718822294 1065 756d84d9150b02d5f08aee1660983b1c "pdflatex"
-  "Resume - Eric Wang.out" 1718822294 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "Resume - Eric Wang.tex" 1718822261 11885 d00a754e1f7f3ea479284d73993d5215 ""
+  "Resume - Eric Wang.aux" 1718823149 1065 756d84d9150b02d5f08aee1660983b1c "pdflatex"
+  "Resume - Eric Wang.out" 1718823149 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "Resume - Eric Wang.tex" 1718823148 11960 706727cebd3a670b611a803f2d1f2c10 ""
   (generated)
   "Resume - Eric Wang.aux"
   "Resume - Eric Wang.log"
